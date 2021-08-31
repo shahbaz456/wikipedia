@@ -1,0 +1,39 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.center-div {
+  width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.left-side {
+  height: 80vh;
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.right-side {
+  height: 80vh;
+  border: 1px solid black;
+  font-size: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.left-side {
+  background-color: grey;
+  color: honeydew;
+}
+
+.mark {
+  border: 1px solid black;
+  width: 47.7%;
+  margin-left: 0px;
+  display: flex;
+  border-bottom: 0;
+  font-size: 15px;
+}

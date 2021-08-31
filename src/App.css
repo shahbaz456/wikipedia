@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.btnn {
+  float: right;
+  font-size: x-large;
+  margin: 15px;
+  border: none;
+  background-color: lightgrey;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+}
+.btn:hover {
+  background: #8d8f8d;
+
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.headmine {
+  justify-content: center;
+}
